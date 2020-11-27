@@ -1,0 +1,288 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v2.x A?
+U 1 1 5FC0FB09
+P 6200 3500
+F 0 "A?" H 6200 3450 50  0000 C CNN
+F 1 "Arduino_Nano_v2.x" H 6000 4700 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 6200 3500 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 6200 3500 50  0001 C CNN
+	1    6200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_Array:ULN2003 U?
+U 1 1 5FC111B9
+P 4350 3500
+F 0 "U?" H 4350 4167 50  0000 C CNN
+F 1 "ULN2003" H 4350 4076 50  0000 C CNN
+F 2 "" H 4400 2950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4450 3300 50  0001 C CNN
+	1    4350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_Photo_NPN Q?
+U 1 1 5FC150C4
+P 7450 3750
+F 0 "Q?" H 7273 3796 50  0000 R CNN
+F 1 "Q_Photo_NPN" H 7273 3705 50  0000 R CNN
+F 2 "" H 7650 3850 50  0001 C CNN
+F 3 "~" H 7450 3750 50  0001 C CNN
+	1    7450 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC16578
+P 7350 3200
+F 0 "R?" H 7420 3246 50  0000 L CNN
+F 1 "R" H 7420 3155 50  0000 L CNN
+F 2 "" V 7280 3200 50  0001 C CNN
+F 3 "~" H 7350 3200 50  0001 C CNN
+	1    7350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC16B71
+P 8250 3200
+F 0 "R?" H 8320 3246 50  0000 L CNN
+F 1 "R" H 8320 3155 50  0000 L CNN
+F 2 "" V 8180 3200 50  0001 C CNN
+F 3 "~" H 8250 3200 50  0001 C CNN
+	1    8250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FC17930
+P 2750 2950
+F 0 "C?" H 2865 2996 50  0000 L CNN
+F 1 "C" H 2865 2905 50  0000 L CNN
+F 2 "" H 2788 2800 50  0001 C CNN
+F 3 "~" H 2750 2950 50  0001 C CNN
+	1    2750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC1873B
+P 4350 4450
+F 0 "#PWR?" H 4350 4200 50  0001 C CNN
+F 1 "GND" H 4355 4277 50  0000 C CNN
+F 2 "" H 4350 4450 50  0001 C CNN
+F 3 "" H 4350 4450 50  0001 C CNN
+	1    4350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC194E2
+P 6200 4700
+F 0 "#PWR?" H 6200 4450 50  0001 C CNN
+F 1 "GND" H 6205 4527 50  0000 C CNN
+F 2 "" H 6200 4700 50  0001 C CNN
+F 3 "" H 6200 4700 50  0001 C CNN
+	1    6200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC1B5D2
+P 7350 4200
+F 0 "#PWR?" H 7350 3950 50  0001 C CNN
+F 1 "GND" H 7355 4027 50  0000 C CNN
+F 2 "" H 7350 4200 50  0001 C CNN
+F 3 "" H 7350 4200 50  0001 C CNN
+	1    7350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FC1C1EB
+P 7350 2900
+F 0 "#PWR?" H 7350 2750 50  0001 C CNN
+F 1 "+5V" H 7365 3073 50  0000 C CNN
+F 2 "" H 7350 2900 50  0001 C CNN
+F 3 "" H 7350 2900 50  0001 C CNN
+	1    7350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FC1D944
+P 6400 2350
+F 0 "#PWR?" H 6400 2200 50  0001 C CNN
+F 1 "+5V" H 6450 2500 50  0000 C CNN
+F 2 "" H 6400 2350 50  0001 C CNN
+F 3 "" H 6400 2350 50  0001 C CNN
+	1    6400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FC1E732
+P 3450 2650
+F 0 "#PWR?" H 3450 2500 50  0001 C CNN
+F 1 "+5V" H 3465 2823 50  0000 C CNN
+F 2 "" H 3450 2650 50  0001 C CNN
+F 3 "" H 3450 2650 50  0001 C CNN
+	1    3450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3100 4800 3100
+Wire Wire Line
+	4350 4100 4350 4450
+$Comp
+L Motor:Stepper_Motor_unipolar_5pin M?
+U 1 1 5FC225C6
+P 3150 3650
+F 0 "M?" V 3026 3462 50  0000 R CNN
+F 1 "Stepper_Motor_unipolar_5pin" V 3117 3462 50  0000 R CNN
+F 2 "" H 3160 3640 50  0001 C CNN
+F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 3160 3640 50  0001 C CNN
+	1    3150 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 3350 3050 3200
+Wire Wire Line
+	3050 3200 3950 3200
+Wire Wire Line
+	3950 3200 3950 3300
+Wire Wire Line
+	3950 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 3300
+Wire Wire Line
+	3800 3300 3250 3300
+Wire Wire Line
+	3250 3300 3250 3350
+Wire Wire Line
+	3450 3550 3800 3550
+Wire Wire Line
+	3800 3550 3800 3500
+Wire Wire Line
+	3800 3500 3950 3500
+Wire Wire Line
+	3950 3600 3800 3600
+Wire Wire Line
+	3800 3600 3800 3750
+Wire Wire Line
+	3800 3750 3450 3750
+Wire Wire Line
+	3450 3450 3450 2750
+Wire Wire Line
+	3450 2750 4800 2750
+Connection ~ 3450 2750
+Wire Wire Line
+	4800 2750 4800 3100
+Wire Wire Line
+	3450 2650 3450 2750
+Wire Wire Line
+	4750 3300 5400 3300
+Wire Wire Line
+	5400 3300 5400 4100
+Wire Wire Line
+	5400 4100 5700 4100
+Wire Wire Line
+	4750 3400 5300 3400
+Wire Wire Line
+	5300 3400 5300 4000
+Wire Wire Line
+	5300 4000 5700 4000
+Wire Wire Line
+	4750 3500 5200 3500
+Wire Wire Line
+	5200 3500 5200 3900
+Wire Wire Line
+	5200 3900 5700 3900
+Wire Wire Line
+	4750 3600 5100 3600
+Wire Wire Line
+	5100 3600 5100 3800
+Wire Wire Line
+	5100 3800 5700 3800
+Wire Wire Line
+	6400 2350 6400 2500
+Wire Wire Line
+	2750 2800 2750 2750
+Wire Wire Line
+	2750 2750 3450 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5FC56890
+P 2750 3150
+F 0 "#PWR?" H 2750 2900 50  0001 C CNN
+F 1 "GND" H 2755 2977 50  0000 C CNN
+F 2 "" H 2750 3150 50  0001 C CNN
+F 3 "" H 2750 3150 50  0001 C CNN
+	1    2750 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3100 2750 3150
+Wire Wire Line
+	6200 4700 6200 4600
+Wire Wire Line
+	6300 4500 6300 4600
+Wire Wire Line
+	6300 4600 6200 4600
+Connection ~ 6200 4600
+Wire Wire Line
+	6200 4600 6200 4500
+$Comp
+L LED:IR204A D?
+U 1 1 5FC13400
+P 8250 3650
+F 0 "D?" V 8246 3571 50  0000 R CNN
+F 1 "IR204A" V 8155 3571 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_IRBlack" H 8250 3825 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR204-A.pdf" H 8200 3650 50  0001 C CNN
+	1    8250 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 3350 7350 3500
+Wire Wire Line
+	7350 2900 7350 3000
+Wire Wire Line
+	7350 3950 7350 4050
+Wire Wire Line
+	7350 3000 8250 3000
+Wire Wire Line
+	8250 3000 8250 3050
+Connection ~ 7350 3000
+Wire Wire Line
+	7350 3000 7350 3050
+Wire Wire Line
+	8250 3350 8250 3550
+Wire Wire Line
+	8250 3850 8250 4050
+Wire Wire Line
+	8250 4050 7350 4050
+Connection ~ 7350 4050
+Wire Wire Line
+	7350 4050 7350 4200
+Wire Wire Line
+	6700 3500 7350 3500
+Connection ~ 7350 3500
+Wire Wire Line
+	7350 3500 7350 3550
+$EndSCHEMATC
