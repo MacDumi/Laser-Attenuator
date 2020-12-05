@@ -24,7 +24,7 @@ void setup() {
   //declare the sensor pin as input
   pinMode(sensor, INPUT);
   //start the serial communication
-  Serial.begin(9600);
+  Serial.begin(115200);
   //wait for initialization
   delay(20);
 

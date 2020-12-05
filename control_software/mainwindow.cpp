@@ -69,7 +69,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->statusbar->showMessage("Disconnected");
     MainWindow::on_btnRefreshClicked();
     serial = new QSerialPort(this);
-    serial->setBaudRate(QSerialPort::Baud9600);
+    serial->setBaudRate(QSerialPort::Baud115200);
     serial->setDataBits(QSerialPort::Data8);
     serial->setParity(QSerialPort::NoParity);
     serial->setStopBits(QSerialPort::OneStop);
